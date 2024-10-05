@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GynacologicalCare</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8d143809b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#menstrual-cycle"></a>Menstrual Health</a></li>
+                    <li><a href="#infection"></a>Infections</a></li>
+                    <li><a href="#family-planning"></a>Family Planning</a></li>
+                    <li><a href="#services"></a>Pregnancy Care</a></li>
+                    <li><a href="#Cancer-Awareness"></a>Cancer Awareness</a></li>
+                    <li><a href="#contact"></a>FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Welcome to the Women's Health Awareness App</p>
+            </div>
+        </div>
+        <!-- Chat Button -->
+<div id="chat-button" onclick="openChat()">
+    <img src="chat-icon.png" alt="Chat" style="width: 50px; height: 50px;"/>
+</div>
+
+<!-- Chat Widget Container -->
+<div id="chat-container">
+    <iframe id="chat-frame" src=""></iframe>
+    <button id="close-chat" onclick="closeChat()">&#x2715;</button> <!-- 'x' button to close chat -->
+</div>
+
+
+        
+    </div>
+
+    <!----------------Menstrual Cycles-------------->
+    <div id="menstrual-cycle">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/familyPlanning.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Menstrual cycle</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Nulla facere eveniet nihil magnam autem obcaecati soluta. 
+                        Nemo rerum veniam sed quaerat quae in beatae facere 
+                        repellat nobis, dolores, repudiandae fuga?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Introduction to Menstrual Cycles</p>
+                        <p class="tab-links" onclick="opentab('experience')">Track Your Cycle</p>
+                        <p class="tab-links" onclick="opentab('education')">Educational Content</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Menstrual phase</span><br>Day 1, uterus lining which is prepared for implantation starts to shed which lasts 3 to 5 days.</li>
+                            <li><span> Follicular phase</span><br>In this phase, the primary follicle starts developing into a mature Graffian follicle. The endometrium also starts proliferating.</li>
+                           <!-----<li><span>UI/UX</span><br>Building Android/ios apps</li>-------->
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - current</span><br>UI/UX Design Training at ET institute</li>
+                            <li><span>2019 - 2021</span><br>Team Lead at StarApp LLC</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Execution at coin Digital LTD</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>hygiene</span><br>UI/UX Design Training at ET institute</li>
+                            <li><span>pain management</span><br>MBA from MIT Bangalore</li>
+                            <li><span>irregularities</span><br>BBA from ISM Bangalore</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------Infections----->
+    <div id="infection">
+        <div class="container">
+            <h1 class="sub-title">Infections</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/pexels-alena-shekhovtcova-6075005.jpg">
+                    <div class="layer">
+                        <h3>UTI infection</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Placeat nisi dicta maiores cum, quia tempora cumque porro sit quo ex alias sapiente aperiam veritatis,
+                            error, sequi illo quae vitae debitis!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/pexels-alena-shekhovtcova-6074931.jpg">
+                    <div class="layer">
+                        <h3>STI infection</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Placeat nisi dicta maiores cum, quia tempora cumque porro sit quo ex alias sapiente aperiam veritatis,
+                            error, sequi illo quae vitae debitis!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/pexels-polina-tankilevitch-8213107.jpg">
+                    <div class="layer">
+                        <h3>Preventive measures</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Placeat nisi dicta maiores cum, quia tempora cumque porro sit quo ex alias sapiente aperiam veritatis,
+                            error, sequi illo quae vitae debitis!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-------------Family Planning--------->
+    <div id="family-planning">
+        <div class="container">
+            <h1 class="sub-title">Family Planning</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/pexels-ron-lach-9870222.jpg">
+                    <div class="layer">
+                        <h3>Contraceptive Methods Overview</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Placeat nisi dicta maiores cum, quia tempora cumque porro sit quo ex alias sapiente aperiam veritatis,
+                            error, sequi illo quae vitae debitis!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/pexels-rdne-9214897.jpg">
+                    <div class="layer">
+                        <h3>Links to Health Centers</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Placeat nisi dicta maiores cum, quia tempora cumque porro sit quo ex alias sapiente aperiam veritatis,
+                            error, sequi illo quae vitae debitis!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!---------------Pregnancy Care Section---------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Pregnancy Care</h1>
+            <div class="services-list">
+                <div>
+                    <!----<i class="fa-solid fa-code"></i>----->
+                    <h2> Stages of Pregnancy</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Eos dolorem tempore distinctio inventore quasi sed recusandae molestiae modi debitis!
+                         Corrupti impedit culpa iste inventore ea mollitia omnis vero atque nemo?</p>
+                         <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <!----<i class="fa-solid fa-crop"></i>----->
+                    <h2>Prenatal Care Tips</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Eos dolorem tempore distinctio inventore quasi sed recusandae molestiae modi debitis!
+                         Corrupti impedit culpa iste inventore ea mollitia omnis vero atque nemo?</p>
+                         <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <!----<i class="fa-brands fa-app-store"></i>----->
+                    <h2>Signs of Complications</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Eos dolorem tempore distinctio inventore quasi sed recusandae molestiae modi debitis!
+                         Corrupti impedit culpa iste inventore ea mollitia omnis vero atque nemo?</p>
+                         <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--------------Cancer Awareness--------------------->
+    <div id="Cancer-Awareness"></div>
+        <div class="container">
+            <h1 class="sub-title">Cancer Awareness</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/pexels-klaus-nielsen-6303626.jpg">
+                    <div class="layer">
+                        <h3>Cervical Cancer Info</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Placeat nisi dicta maiores cum, quia tempora cumque porro sit quo ex alias sapiente aperiam veritatis,
+                            error, sequi illo quae vitae debitis!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/pexels-tima-miroshnichenko-6011602.jpg">
+                    <div class="layer">
+                        <h3>Importance of Screening</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Placeat nisi dicta maiores cum, quia tempora cumque porro sit quo ex alias sapiente aperiam veritatis,
+                            error, sequi illo quae vitae debitis!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-----------FAQ Section----------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">FAQ</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 0954672658</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <!----<a href="images/my-cv.pdf" download class="btn btn2">Download cv</a>--->
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="16" placeholder="Your Question"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright Made with<i class="fa-solid fa-heart"></i>by Kerubo</p>
+        </div>
+    </div>
+
+    <script>
+        // Function to open chat
+        function openChat() {
+            document.getElementById("chat-container").style.display = "block";
+            document.getElementById("chat-frame").src = "https://console.dialogflow.com/api-client/demo/embedded/a43fe654-3f2f-4532-822a-e6d8b655705b"; // Replace YOUR_AGENT_ID with your agent's ID
+        }
+        
+        // Function to close chat
+        function closeChat() {
+            document.getElementById("chat-container").style.display = "none";
+            document.getElementById("chat-frame").src = "";  // Clear iframe source to reset chat
+        }
+        </script>
+        
+
+
+   
+</body>
+</html>
